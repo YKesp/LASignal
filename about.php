@@ -48,12 +48,12 @@
                     <div class="collage-right-stack">
                         <div class="collage-quote-box">
                             <div class="quote-star-icon">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="M12 2L14.4 8.6L21 11L14.4 13.4L12 20L9.6 13.4L3 11L9.6 8.6L12 2Z"/>
-                                </svg>
+                                <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.4711 0C32.3502 18.47 42.4976 28.555 61 30.5144C52.8763 31.3212 45.4175 33.6264 39.5199 39.5045C33.6223 45.4114 31.2806 52.8455 30.4711 61C28.5341 42.6741 18.5313 32.4162 0 30.4856C18.4735 28.4974 28.5919 18.3547 30.4711 0Z" fill="#FFD800"/>
+</svg>
                             </div>
                             <p>
-                                Los Angeles Signal Construction Inc has experienced, knowledgeable crews who are available and ready to respond to emergency situations around the clock.
+                                We have resources to implement multiple large scale projects, as well as small projects simultaneously.
                             </p>
                         </div>
 
