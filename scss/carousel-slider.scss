@@ -1,0 +1,119 @@
+.main-carousel {
+  background: #fff;
+  color: #fff;
+  @media screen and (max-width: 767px) {
+    margin-top:0;
+  }
+  position: relative;
+}
+.carousel.main-carousel {
+  .carousel-item{
+    transition: none !important;
+    &.active{
+      .inner{
+        opacity: 1;
+      }
+    }
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .buttons-outer{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+  }
+  .carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+    justify-content: start;
+    width: 42px;
+    top: 50%;
+    bottom: unset;
+    @media screen and (max-width:1359px){display: none !important;}
+    .icon-rightarrow,.icon-leftarrow{
+      width: 42px;
+      height: 42px;
+      line-height: 38px;
+      text-align: center;
+      background: transparent;
+      opacity: 1;
+      border-radius: 50%;
+      display: block;
+      // color: var(--primary);
+      // border: 1px solid var(--primary);
+      color: #fff;
+      border: 1px solid #fff;
+      &:before{font-size: 14px;}
+    }
+    &:hover{
+      .icon-rightarrow, .icon-leftarrow{
+        background: var(--primary);
+        color: #fff;
+      }
+    }
+  }
+  .carousel-control-prev{
+    justify-content: end;
+    left: -80px;
+  }
+  .carousel-control-next{
+    right: -80px;
+  }
+  .caption {
+    text-align: center;
+    @media screen and (min-width:768px){
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: start;
+    } 
+    .inner{
+      max-width:640px;
+      @media screen and (max-width: 767px) {
+        max-width: 100%;
+      }
+    }
+    h1{
+      font-size: 50px;
+      font-weight: 700;
+      font-family: 'sora';
+      margin: 0 0 20px;
+      line-height: 1.1;
+      color: vr(--dark);
+      text-transform: uppercase;
+      @media screen and (max-width:1459px){
+        font-size: 50px;
+      }
+      @media screen and (max-width:1359px){
+        font-size: 40px;
+      }
+      @media screen and (max-width:1199px){
+        font-size: 30px;
+        text-transform: capitalize;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      background: var(--primary);
+      padding: 20px;
+      color: #fff;
+    }
+    
+  }
+  @media screen and (max-width: 767px) {
+    br{
+      display: none;
+    } 
+  }
+  .carousel-indicators{
+    bottom: 50px;
+  }
+}

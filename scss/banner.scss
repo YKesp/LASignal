@@ -1,0 +1,25 @@
+.banner{
+    position: relative;
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .caption{
+      @media screen and (min-width:768px){
+        position: absolute;
+        left: 0;
+        right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+       }
+    }
+    .inner{
+      max-width:640px;
+    }
+    @media screen and (max-width: 767px) {
+      .inner{
+        max-width: 100%;
+      }
+    }
+}

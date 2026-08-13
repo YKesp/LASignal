@@ -1,0 +1,255 @@
+.splide.teamslider {
+  padding-top: 80px;
+  margin-top: -80px;
+  .splide__slide {
+    position: relative;
+    padding:0;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .splide__arrows{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap:10px;
+    button{
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        background: transparent;
+        opacity: 1;
+        color: #000;
+        position: static;
+        @media screen and (max-width:767px){
+           width: 30px;
+          height: 30px;
+        }
+        span{font-size: 11px;}
+        &:hover{
+            color: var(--primary);
+            background: #fff;
+        }
+    }
+  }
+}
+
+.splide{
+  visibility: visible !important;
+
+}
+/* Customize the main slider container */
+#main-slider {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Customize the main slider slides */
+#main-slider .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Customize the thumbnail slider container */
+#thumbnail-slider {
+  width: 100%;
+}
+
+/* Customize the thumbnail slider slides */
+#thumbnail-slider .splide__slide {
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#thumbnail-slider .splide__slide img {
+  width: 100%;
+  height: auto;
+  border: 2px solid transparent;
+}
+
+/* Customize the active thumbnail */
+#thumbnail-slider .splide__slide.is-active img {
+  border-color: #007bff; /* Change to your desired active thumbnail border color */
+}
+
+.splide__slide img {
+  touch-action: pan-y; /* Allow vertical scrolling */
+}
+.splide__slide__row{margin-bottom: 0 !important;}
+
+/* ===================================================
+   ABOUT PAGE TRAFFIC SIGNALS CAROUSEL
+   =================================================== */
+.about-slider {
+  position: relative;
+  margin-top: 40px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 25px;
+  }
+
+  .splide__track {
+    padding: 10px 0;
+    overflow: visible; // allows partial slides to peek nicely if container overflows or inside container
+    @media screen and (max-width: 991px) {
+      overflow: hidden;
+    }
+  }
+
+  .splide__slide {
+    padding: 0 4px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+
+  .slide-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    height: 450px;
+    background-color: #f4f6f8;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+    @media screen and (max-width: 1199px) {
+      height: 380px;
+      border-radius: 20px;
+    }
+
+    @media screen and (max-width: 767px) {
+      height: 300px;
+      border-radius: 16px;
+    }
+
+    @media screen and (max-width: 480px) {
+      height: 240px;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      cursor: zoom-in;
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.4) 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: inherit;
+        pointer-events: none;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 24px;
+      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+
+      @media screen and (max-width: 1199px) {
+        border-radius: 20px;
+      }
+
+      @media screen and (max-width: 767px) {
+        border-radius: 16px;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      transform: translateY(-4px);
+
+      img {
+        transform: scale(1.04);
+      }
+
+      a::after {
+        opacity: 1;
+      }
+    }
+  }
+
+  /* Navigation Arrows */
+  .splide__arrow {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: rgba(18, 18, 18, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    opacity: 0.9;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 10;
+
+    @media screen and (max-width: 767px) {
+      width: 38px;
+      height: 38px;
+    }
+
+    svg {
+      fill: #ffffff;
+      width: 1.1em;
+      height: 1.1em;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover:not(:disabled) {
+      background: var(--primary);
+      border-color: var(--primary);
+      opacity: 1;
+      box-shadow: 0 4px 16px rgba(23, 182, 147, 0.4);
+
+      svg {
+        fill: #ffffff;
+      }
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    &--prev {
+      left: 16px;
+      @media screen and (max-width: 767px) {
+        left: 8px;
+      }
+    }
+
+    &--next {
+      right: 16px;
+      @media screen and (max-width: 767px) {
+        right: 8px;
+      }
+    }
+  }
+
+  /* Pagination Dots (if needed) */
+  .splide__pagination {
+    bottom: -32px;
+
+    &__page {
+      width: 10px;
+      height: 10px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+      margin: 0 5px;
+      transition: all 0.3s ease;
+
+      &.is-active {
+        background: var(--primary);
+        transform: scale(1.3);
+      }
+    }
+  }
+}

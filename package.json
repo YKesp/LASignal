@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ib": "npm install bootstrap",
+    "cs": "sass scss/main.scss css/main.css",
+    "ws": "sass --watch scss/main.scss css/all.css",
+    "whs": "sass --watch scss/home.scss css/home.css",
+    "webp": "sharp -i ./images/*.jpg -o ./images/webp/ --format webp && sharp -i ./images/*.png -o ./images/webp/ --format webp",
+    "clean": "cleancss -o css/home.min.css css/home.css && cleancss -o css/all.min.css css/all.css",
+    "start:sync": "browser-sync start --server --files 'css/*.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.11.3",
+    "clean-css": "^5.3.3",
+    "sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "sass": "^1.76.0"
+  }
+}
