@@ -97,8 +97,10 @@
                             <a href="project-detail.php" class="related-project-card">
                                 <div class="project-img-box">
                                     <img src="images/project-img1.jpg" alt="Costco Wholesale Torrance" class="img-fluid" loading="lazy">
-                                    <span class="card-arrow-badge">
-                                        <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                    <span class="card-notch">
+                                        <span class="card-arrow-btn">
+                                            <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                        </span>
                                     </span>
                                 </div>
                                 <h3 class="project-card-title">Costco Wholesale<br>Torrance</h3>
@@ -110,8 +112,10 @@
                             <a href="project-detail.php" class="related-project-card">
                                 <div class="project-img-box">
                                     <img src="images/traffic-signal-2.png" alt="Henry Mayo" class="img-fluid" loading="lazy">
-                                    <span class="card-arrow-badge">
-                                        <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                    <span class="card-notch">
+                                        <span class="card-arrow-btn">
+                                            <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                        </span>
                                     </span>
                                 </div>
                                 <h3 class="project-card-title">Henry Mayo</h3>
@@ -123,8 +127,10 @@
                             <a href="project-detail.php" class="related-project-card">
                                 <div class="project-img-box">
                                     <img src="images/project-img3.jpg" alt="METRO's I405|SR134 Soundwall" class="img-fluid" loading="lazy">
-                                    <span class="card-arrow-badge">
-                                        <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                    <span class="card-notch">
+                                        <span class="card-arrow-btn">
+                                            <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                        </span>
                                     </span>
                                 </div>
                                 <h3 class="project-card-title">METRO's I405|SR134<br>Soundwall</h3>
@@ -136,8 +142,10 @@
                             <a href="project-detail.php" class="related-project-card">
                                 <div class="project-img-box">
                                     <img src="images/project-img4.jpg" alt="FedEx Shipping Center" class="img-fluid" loading="lazy">
-                                    <span class="card-arrow-badge">
-                                        <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                    <span class="card-notch">
+                                        <span class="card-arrow-btn">
+                                            <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                        </span>
                                     </span>
                                 </div>
                                 <h3 class="project-card-title">FedEx Shipping<br>Center</h3>
@@ -149,8 +157,10 @@
                             <a href="project-detail.php" class="related-project-card">
                                 <div class="project-img-box">
                                     <img src="images/project-img5.jpg" alt="Hoag Health Center" class="img-fluid" loading="lazy">
-                                    <span class="card-arrow-badge">
-                                        <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                    <span class="card-notch">
+                                        <span class="card-arrow-btn">
+                                            <svg viewBox="0 0 14 14"><path d="M5 2.5L9.5 7L5 11.5"/></svg>
+                                        </span>
                                     </span>
                                 </div>
                                 <h3 class="project-card-title">Hoag Health<br>Center</h3>

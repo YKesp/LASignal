@@ -12424,13 +12424,14 @@ body {
   position: relative;
   border-radius: 18px;
   overflow: hidden;
-  height: 230px;
+  height: 240px;
   background: #082d23;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  /* Notch in the bottom right corner with smooth inverted curve radius */
 }
 @media screen and (max-width: 767px) {
   .related-projects-section .related-project-card .project-img-box {
-    height: 200px;
+    height: 210px;
   }
 }
 .related-projects-section .related-project-card .project-img-box img {
@@ -12438,26 +12439,63 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 18px;
   transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
-.related-projects-section .related-project-card .project-img-box .card-arrow-badge {
+.related-projects-section .related-project-card .project-img-box .card-notch {
   position: absolute;
-  bottom: 12px;
-  right: 12px;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: rgba(13, 68, 55, 0.9);
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  bottom: 0;
+  right: 0;
+  width: 68px;
+  height: 68px;
+  background: #0d4437;
+  border-top-left-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: 3;
+  /* Inverted top curve */
+  /* Inverted left curve */
+}
+.related-projects-section .related-project-card .project-img-box .card-notch::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  box-shadow: 8px 8px 0 8px #0d4437;
+  pointer-events: none;
+}
+.related-projects-section .related-project-card .project-img-box .card-notch::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-bottom-right-radius: 20px;
+  box-shadow: 8px 8px 0 8px #0d4437;
+  pointer-events: none;
+}
+.related-projects-section .related-project-card .project-img-box .card-notch .card-arrow-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: #0d4437;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
   transition: all 0.25s ease;
-  z-index: 3;
+  position: relative;
+  z-index: 4;
 }
-.related-projects-section .related-project-card .project-img-box .card-arrow-badge svg {
+.related-projects-section .related-project-card .project-img-box .card-notch .card-arrow-btn svg {
   width: 15px;
   height: 15px;
   stroke: currentColor;
@@ -12480,14 +12518,14 @@ body {
   }
 }
 .related-projects-section .related-project-card:hover .project-img-box img {
-  transform: scale(1.06);
+  transform: scale(1.04);
 }
-.related-projects-section .related-project-card:hover .project-img-box .card-arrow-badge {
+.related-projects-section .related-project-card:hover .project-img-box .card-notch .card-arrow-btn {
   background: #fac815;
   border-color: #fac815;
   color: #000000;
-  transform: scale(1.08);
-  box-shadow: 0 4px 12px rgba(250, 200, 21, 0.45);
+  transform: scale(1.05);
+  box-shadow: 0 4px 14px rgba(250, 200, 21, 0.4);
 }
 .related-projects-section .related-project-card:hover .project-card-title {
   color: #fac815;
