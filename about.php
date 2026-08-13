@@ -20,46 +20,27 @@
                 <div class="about-collage-grid">
                     <!-- 1. Circular Quality Works Stamp -->
                     <div class="collage-stamp-box">
-                        <svg viewBox="0 0 160 160" class="quality-badge-svg" aria-label="We Believe in Quality Works">
-                            <circle cx="80" cy="80" r="74" fill="none" stroke="#111111" stroke-width="1.8" />
-                            <circle cx="80" cy="80" r="67" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="3,3" />
-                            <defs>
-                                <path id="badgeTextTop" d="M 22,80 A 58,58 0 0,1 138,80" fill="none" />
-                                <path id="badgeTextBottom" d="M 138,80 A 58,58 0 0,1 22,80" fill="none" />
-                            </defs>
-                            <text font-family="'Unbounded', sans-serif" font-size="9.5" font-weight="700" fill="#111111" letter-spacing="2.5">
-                                <textPath href="#badgeTextTop" startOffset="50%" text-anchor="middle">
-                                    WE BELIEVE IN
-                                </textPath>
-                            </text>
-                            <text font-family="'Unbounded', sans-serif" font-size="9.5" font-weight="700" fill="#111111" letter-spacing="2.5">
-                                <textPath href="#badgeTextBottom" startOffset="50%" text-anchor="middle">
-                                    QUALITY WORKS
-                                </textPath>
-                            </text>
-                            <!-- 4-point Star in Center -->
-                            <polygon points="80,62 84,75 97,80 84,85 80,98 76,85 63,80 76,75" fill="#111111" />
-                        </svg>
+                        <img src="svg/mark.svg" alt="We Believe in Quality Works" class="quality-badge-svg">
                     </div>
 
                     <!-- 2. Middle Top Workers Image -->
                     <div class="collage-img-workers">
-                        <a href="images/img01.jpg" data-fancybox="about-gallery" data-caption="Crew Installing Traffic Loops">
-                            <img src="images/img01.jpg" alt="Crew Installing Traffic Loops" class="img-fluid">
+                        <a href="images/about-img-1.jpg" data-fancybox="about-gallery" data-caption="Crew Installing Traffic Loops">
+                            <img src="images/about-img1.jpg" alt="Crew Installing Traffic Loops" class="img-fluid">
                         </a>
                     </div>
 
                     <!-- 3. Top Right Work Truck Image -->
                     <div class="collage-img-truck">
-                        <a href="images/img03.jpg" data-fancybox="about-gallery" data-caption="LA Signal Construction Equipment Truck">
-                            <img src="images/img03.jpg" alt="LA Signal Construction Work Truck" class="img-fluid">
+                        <a href="images/about-img2.jpg" data-fancybox="about-gallery" data-caption="LA Signal Construction Equipment Truck">
+                            <img src="images/about-img2.jpg" alt="LA Signal Construction Work Truck" class="img-fluid">
                         </a>
                     </div>
 
                     <!-- 4. Large Bottom Road Loop Detector Cut -->
                     <div class="collage-img-road-large">
-                        <a href="images/loop-detector-road.jpg" data-fancybox="about-gallery" data-caption="Asphalt Saw-Cut Traffic Loop Detector Installation">
-                            <img src="images/loop-detector-road.jpg" alt="Traffic Loop Detector Installation" class="img-fluid">
+                        <a href="images/about-img3.jpg" data-fancybox="about-gallery" data-caption="Asphalt Saw-Cut Traffic Loop Detector Installation">
+                            <img src="images/about-img3.jpg" alt="Traffic Loop Detector Installation" class="img-fluid">
                         </a>
                     </div>
 
@@ -77,8 +58,8 @@
                         </div>
 
                         <div class="collage-img-road-small">
-                            <a href="images/img02.jpg" data-fancybox="about-gallery" data-caption="Street Detector Loop Installation Project">
-                                <img src="images/img02.jpg" alt="Street Detector Loop Project" class="img-fluid">
+                            <a href="images/about-img4.jpg" data-fancybox="about-gallery" data-caption="Street Detector Loop Installation Project">
+                                <img src="images/about-img4.jpg" alt="Street Detector Loop Project" class="img-fluid">
                             </a>
                         </div>
                     </div>
