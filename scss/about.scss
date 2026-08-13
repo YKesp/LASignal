@@ -1,0 +1,330 @@
+/* ===================================================
+   ABOUT US PAGE STYLES
+   =================================================== */
+
+.about-page-block {
+    padding: 85px 0 95px;
+    background-color: #ffffff;
+
+    @media screen and (max-width: 991px) {
+        padding: 50px 0 60px;
+    }
+
+    .about-main-title {
+        font-family: var(--unbounded);
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 1.28;
+        color: #111111;
+        max-width: 660px;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 1199px) {
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 22px;
+            margin-bottom: 30px;
+            max-width: 100%;
+        }
+    }
+
+    /* About Collage Container */
+    .about-collage-container {
+        position: relative;
+        margin-bottom: 60px;
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 40px;
+        }
+
+        /* Decorative Background Wireframe Border */
+        .collage-deco-frame {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            bottom: 40px;
+            left: 200px;
+            border: 1.5px solid #8be4d0;
+            border-radius: 28px;
+            pointer-events: none;
+            z-index: 1;
+            opacity: 0.7;
+
+            @media screen and (max-width: 991px) {
+                display: none;
+            }
+        }
+    }
+
+    .about-collage-grid {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 180px 1.2fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 24px;
+        align-items: start;
+
+        @media screen and (max-width: 1199px) {
+            grid-template-columns: 150px 1fr 1fr;
+            gap: 18px;
+        }
+
+        @media screen and (max-width: 991px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        @media screen and (max-width: 575px) {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        /* Circular Quality Works Stamp */
+        .collage-stamp-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+
+            @media screen and (max-width: 991px) {
+                grid-column: 1 / 2;
+                justify-content: flex-start;
+            }
+
+            .quality-badge-svg {
+                width: 140px;
+                height: 140px;
+                animation: rotateSlow 30s linear infinite;
+
+                @media screen and (max-width: 1199px) {
+                    width: 125px;
+                    height: 125px;
+                }
+
+                @media screen and (max-width: 767px) {
+                    width: 110px;
+                    height: 110px;
+                }
+            }
+        }
+
+        /* Image 1: Middle top workers */
+        .collage-img-workers {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            background: #e9eff2;
+            height: 220px;
+
+            @media screen and (max-width: 1199px) {
+                height: 190px;
+            }
+
+            @media screen and (max-width: 575px) {
+                height: 220px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.5s ease;
+            }
+
+            &:hover img {
+                transform: scale(1.05);
+            }
+        }
+
+        /* Image 2: Top right utility truck */
+        .collage-img-truck {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            background: #e9eff2;
+            height: 220px;
+
+            @media screen and (max-width: 1199px) {
+                height: 190px;
+            }
+
+            @media screen and (max-width: 575px) {
+                height: 220px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.5s ease;
+            }
+
+            &:hover img {
+                transform: scale(1.05);
+            }
+        }
+
+        /* Image 3: Large bottom left road view */
+        .collage-img-road-large {
+            grid-column: 1 / 3;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #e9eff2;
+            height: 380px;
+
+            @media screen and (max-width: 1199px) {
+                height: 320px;
+            }
+
+            @media screen and (max-width: 991px) {
+                grid-column: 1 / 3;
+                height: 280px;
+            }
+
+            @media screen and (max-width: 575px) {
+                grid-column: 1 / 2;
+                height: 240px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.5s ease;
+            }
+
+            &:hover img {
+                transform: scale(1.04);
+            }
+        }
+
+        /* Right column container for Green Box + Bottom Image */
+        .collage-right-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            @media screen and (max-width: 1199px) {
+                gap: 18px;
+            }
+
+            @media screen and (max-width: 991px) {
+                grid-column: 1 / 3;
+                flex-direction: row;
+            }
+
+            @media screen and (max-width: 575px) {
+                grid-column: 1 / 2;
+                flex-direction: column;
+            }
+        }
+
+        /* Dark Green Quote Box */
+        .collage-quote-box {
+            background: #0d4437;
+            background: radial-gradient(circle at center, #105243 0%, #0c3e32 100%);
+            border-radius: 20px;
+            padding: 28px 24px;
+            color: #ffffff;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(13, 68, 55, 0.25);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+
+            @media screen and (max-width: 1199px) {
+                padding: 22px 18px;
+            }
+
+            .quote-star-icon {
+                margin-bottom: 14px;
+
+                svg {
+                    width: 28px;
+                    height: 28px;
+                    fill: #fac815;
+                }
+            }
+
+            p {
+                font-family: var(--barlow);
+                font-size: 14.5px;
+                font-weight: 500;
+                line-height: 1.6;
+                color: rgba(255, 255, 255, 0.95);
+                margin: 0;
+
+                @media screen and (max-width: 1199px) {
+                    font-size: 13.5px;
+                }
+            }
+        }
+
+        /* Image 4: Bottom right road street */
+        .collage-img-road-small {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            background: #e9eff2;
+            height: 200px;
+            flex: 1;
+
+            @media screen and (max-width: 1199px) {
+                height: 170px;
+            }
+
+            @media screen and (max-width: 575px) {
+                height: 200px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.5s ease;
+            }
+
+            &:hover img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    /* Paragraphs below collage */
+    .about-bottom-content {
+        max-width: 1140px;
+        margin: 0 auto;
+
+        p {
+            font-family: var(--barlow);
+            font-size: 15.5px;
+            line-height: 1.75;
+            color: #444444;
+            margin-bottom: 22px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@keyframes rotateSlow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
