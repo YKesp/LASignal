@@ -40,7 +40,7 @@
                         <h3>Need to reach us?</h3>
                         <p>We’re here to answer all your questions. Fill out our contact form and we’ll connect you with
                             the people who can help.</p>
-                        <a href="#" class="btn btn-success">Contact Us</a>
+                        <a href="contact.php" class="btn btn-success">Contact Us</a>
                         <ul class="social-icons list-unstyled d-flex align-items-center gap-3 mt-5 justify-content-center justify-content-md-start">
                             <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@
                             <li><a href="about.php">Traffic Signals</a></li>
                             <li><a href="#">Traffic Loop Detectors</a></li>
                             <li><a href="#">Directional Boring</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -26,8 +26,8 @@
                 <div class="container d-flex gap-2 flex-sm-row justify-content-center justify-content-md-end align-items-center">
                     <div class="d-flex align-items-center gap-2 gap-md-3">
                         <ul class="list-unstyled info-list d-flex m-0 gap-3">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                         <a href="#" class="phone fas"><span class="d-none d-lg-block">(800) 828 8180</span></a>
                     </div>
