@@ -1,6 +1,6 @@
 <?php include("inc/header.php"); ?>
 <div class="banner">
-    <img src="images/banner1.jpg" class="img-fluid" alt="Projects Banner">
+    <img src="images/projects-banner.jpg" class="img-fluid" alt="Projects Banner">
     <div class="caption container text-center">
         <h1 class="text-white">Projects</h1>
     </div>

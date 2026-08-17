@@ -1,6 +1,6 @@
 <?php include("inc/header.php"); ?>
 <div class="banner">
-    <img src="images/service-img2.jpg" class="img-fluid" alt="Wilshire La Brea Banner">
+    <img src="./images/service2-banner.jpg" class="img-fluid" alt="Wilshire La Brea Banner">
     <div class="caption container text-center">
         <h1 class="text-white">Wilshire La Brea</h1>
     </div>
