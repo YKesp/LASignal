@@ -78,11 +78,11 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About</a></li>
                             <li><a href="projects.php">Projects</a></li>
-                            <li><a href="#">Oversize Load Escort</a></li>
-                            <li><a href="#">Street Lighting</a></li>
-                            <li><a href="about.php">Traffic Signals</a></li>
-                            <li><a href="#">Traffic Loop Detectors</a></li>
-                            <li><a href="#">Directional Boring</a></li>
+                            <li><a href="oversize-load-escort.php">Oversize Load Escort</a></li>
+                            <li><a href="street-lighting.php">Street Lighting</a></li>
+                            <li><a href="traffic-signals.php">Traffic Signals</a></li>
+                            <li><a href="traffic-loop-detector.php">Traffic Loop Detectors</a></li>
+                            <li><a href="directional-boring.php">Directional Boring</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </nav>

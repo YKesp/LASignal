@@ -41,23 +41,23 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav m-0 justify-content-end" id="nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">Oversize Load Escort</a>
+                                <a class="nav-link" href="oversize-load-escort.php">Oversize Load Escort</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Street Lighting</a>
+                                <a class="nav-link" href="street-lighting.php">Street Lighting</a>
                                 <ul class="sub-menu">
-                                     <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                                     <li><a href="about.php">About Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="demo.php">Traffic Signals</a>
+                                <a class="nav-link" href="traffic-signals.php">Traffic Signals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Traffic Loop Detectors</a>
+                                <a class="nav-link" href="traffic-loop-detector.php">Traffic Loop Detectors</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> Directional Boring</a>
+                                <a class="nav-link" href="directional-boring.php">Directional Boring</a>
                             </li>
                         </ul>  
                     </div>

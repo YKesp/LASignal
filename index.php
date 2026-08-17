@@ -44,25 +44,25 @@
                 <div class="col-md-6 service-post">
                     <div class="inner">
                         <img src="./images/service-img1.jpg" class="img-fluid w-100" alt="Service Image">
-                        <h2><a href="#">Street Lighting</a></h2>
+                        <h2><a href="street-lighting.php">Street Lighting</a></h2>
                     </div>
                 </div>
                 <div class="col-md-6 service-post">
                     <div class="inner">
                         <img src="./images/service-img2.jpg" class="img-fluid w-100" alt="Service Image">
-                        <h2><a href="#">Traffic Signals</a></h2>
+                        <h2><a href="traffic-signals.php">Traffic Signals</a></h2>
                     </div>
                 </div>
                 <div class="col-md-6 service-post">
                     <div class="inner">
                         <img src="./images/service-img3.jpg" class="img-fluid w-100" alt="Service Image">
-                        <h2><a href="#">Traffic Loop Detectors</a></h2>
+                        <h2><a href="traffic-loop-detector.php">Traffic Loop Detectors</a></h2>
                     </div>
                 </div>
                 <div class="col-md-6 service-post">
                     <div class="inner">
                         <img src="./images/service-img4.jpg" class="img-fluid w-100" alt="Service Image">
-                        <h2><a href="#">Directional Boring</a></h2>
+                        <h2><a href="directional-boring.php">Directional Boring</a></h2>
                     </div>
                 </div>
             </div>
