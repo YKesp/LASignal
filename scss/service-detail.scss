@@ -11,12 +11,26 @@
     }
 
     .service-header {
-        max-width: 860px;
+        max-width: 920px;
         margin: 0 auto 55px;
         text-align: center;
 
         @media screen and (max-width: 767px) {
             margin-bottom: 35px;
+        }
+
+        .service-tagline {
+            display: inline-block;
+            font-family: var(--barlow);
+            font-size: 13.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary);
+            background: rgba(23, 182, 147, 0.1);
+            padding: 6px 18px;
+            border-radius: 20px;
+            margin-bottom: 16px;
         }
 
         .service-title {
@@ -41,14 +55,14 @@
         .service-lead {
             font-family: var(--barlow);
             font-size: 16.5px;
-            font-weight: 700;
-            line-height: 1.55;
+            font-weight: 600;
+            line-height: 1.65;
             color: #111111;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
 
             @media screen and (max-width: 767px) {
                 font-size: 15px;
-                margin-bottom: 16px;
+                margin-bottom: 14px;
             }
         }
 
@@ -195,7 +209,7 @@
         /* Floating Nav Arrows (Between Left and Center Image) */
         .service-slider-nav {
             position: absolute;
-            left: 50%;
+            left: 49%;
             top: 50%;
             transform: translate(-445px, -50%);
             z-index: 10;
@@ -223,19 +237,19 @@
                 backdrop-filter: blur(6px);
                 -webkit-backdrop-filter: blur(6px);
                 border: 1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 30px;
-                padding: 6px 12px;
+                border-radius: 50px;
+                padding: 0;
                 display: inline-flex;
                 align-items: center;
-                gap: 8px;
+                gap: 0;
                 box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 
                 .nav-arrow-btn {
                     background: none;
                     border: none;
                     color: #ffffff;
-                    width: 22px;
-                    height: 22px;
+                    width: 35px;
+                    height: 70px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -244,8 +258,8 @@
                     transition: transform 0.2s ease, color 0.2s ease;
 
                     svg {
-                        width: 12px;
-                        height: 12px;
+                        width: 25px;
+                        // height: 12px;
                         stroke: currentColor;
                         stroke-width: 2.5;
                         fill: none;
@@ -261,30 +275,242 @@
                     width: 1px;
                     height: 14px;
                     background: rgba(255, 255, 255, 0.3);
+                    display: none;
                 }
             }
         }
     }
 
-    /* Splide Carousel for Mobile/Tablet */
-    .service-splide {
-        .splide__track {
-            overflow: visible;
+    /* Shared Sub-sections in Detail Pages */
+    .service-section-wrap {
+        margin-top: 75px;
+
+        @media screen and (max-width: 767px) {
+            margin-top: 50px;
         }
 
-        .gallery-card {
-            height: 480px;
-
-            @media screen and (max-width: 1199px) {
-                height: 400px;
-            }
-
-            @media screen and (max-width: 991px) {
-                height: 340px;
-            }
+        .service-section-heading {
+            font-family: var(--unbounded);
+            font-size: 28px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 12px;
 
             @media screen and (max-width: 767px) {
-                height: 280px;
+                font-size: 22px;
+            }
+        }
+
+        .service-section-sub {
+            font-family: var(--barlow);
+            font-size: 16px;
+            color: #555555;
+            max-width: 720px;
+            margin: 0 auto 35px;
+            line-height: 1.6;
+
+            @media screen and (max-width: 767px) {
+                font-size: 14.5px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    /* 1. Checklist Grid */
+    .service-checklist-grid {
+        .service-check-item {
+            background: #ffffff;
+            border: 1px solid #eef2f4;
+            border-radius: 16px;
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+            height: 100%;
+
+            &:hover {
+                border-color: var(--primary);
+                transform: translateY(-3px);
+                box-shadow: 0 10px 24px rgba(23, 182, 147, 0.1);
+            }
+
+            .check-icon {
+                width: 36px;
+                height: 36px;
+                border-radius: 10px;
+                background: rgba(23, 182, 147, 0.12);
+                color: var(--primary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+            }
+
+            .check-text {
+                font-family: var(--barlow);
+                font-size: 15px;
+                font-weight: 600;
+                color: #222222;
+                line-height: 1.4;
+            }
+        }
+    }
+
+    /* 2. Standards Banner */
+    .service-standards-block {
+        .standards-banner-inner {
+            background: #0d4437;
+            background: radial-gradient(circle at top right, #146150 0%, #0c3e32 100%);
+            border-radius: 22px;
+            padding: 38px 36px;
+            color: #ffffff;
+            box-shadow: 0 10px 30px rgba(13, 68, 55, 0.2);
+
+            @media screen and (max-width: 767px) {
+                padding: 28px 22px;
+                border-radius: 18px;
+            }
+
+            .standards-badge-icon {
+                width: 68px;
+                height: 68px;
+                border-radius: 16px;
+                background: rgba(255, 216, 0, 0.15);
+                color: var(--secondary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            .standards-title {
+                font-family: var(--unbounded);
+                font-size: 20px;
+                font-weight: 600;
+                color: #ffffff;
+                margin-bottom: 10px;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 17px;
+                }
+            }
+
+            .standards-text {
+                font-family: var(--barlow);
+                font-size: 15px;
+                line-height: 1.65;
+                color: rgba(255, 255, 255, 0.88);
+                margin: 0;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /* 3. Split Feature Block */
+    .service-split-block {
+        .service-feature-card {
+            background: linear-gradient(135deg, #f8fbf9 0%, #edf6f3 100%);
+            border: 1px solid rgba(23, 182, 147, 0.18);
+            border-radius: 22px;
+            padding: 36px 32px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.03);
+
+            @media screen and (max-width: 767px) {
+                padding: 26px 22px;
+                border-radius: 18px;
+            }
+
+            .feature-card-icon {
+                width: 48px;
+                height: 48px;
+                border-radius: 12px;
+                background: var(--darkgreen);
+                color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                font-family: var(--unbounded);
+                font-size: 20px;
+                font-weight: 600;
+                color: #111111;
+                margin-bottom: 14px;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 18px;
+                }
+            }
+
+            p {
+                font-family: var(--barlow);
+                font-size: 15px;
+                line-height: 1.7;
+                color: #444444;
+                margin: 0;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /* 4. CTA Banner */
+    .service-cta-banner {
+        margin-top: 75px;
+        background: #111111;
+        background: linear-gradient(135deg, #181818 0%, #0d0d0d 100%);
+        border-radius: 24px;
+        padding: 45px 40px;
+        color: #ffffff;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+        @media screen and (max-width: 767px) {
+            padding: 30px 24px;
+            margin-top: 50px;
+            border-radius: 18px;
+        }
+
+        .cta-badge {
+            display: inline-block;
+            font-family: var(--barlow);
+            font-size: 12.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .cta-title {
+            font-family: var(--unbounded);
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 10px;
+
+            @media screen and (max-width: 767px) {
+                font-size: 19px;
+            }
+        }
+
+        .cta-text {
+            font-family: var(--barlow);
+            font-size: 15.5px;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+            line-height: 1.6;
+
+            @media screen and (max-width: 767px) {
+                font-size: 14px;
             }
         }
     }

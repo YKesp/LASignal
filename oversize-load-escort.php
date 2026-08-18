@@ -1,50 +1,222 @@
 <?php include("inc/header.php"); ?>
 <div class="banner">
-    <img src="images/banner4.jpg" class="img-fluid" alt="Oversize Load Escort Banner">
+    <img src="images/banner4.jpg" class="img-fluid" alt="Oversized Load Escort Services Banner">
     <div class="caption container text-center">
-        <h1 class="text-white">Oversize Load Escort</h1>
+        <h1 class="text-white">Oversized Load Escort Services</h1>
     </div>
 </div>
 <main id="main">
-    <section class="escort-page-block">
+    <section class="service-page-block escort-page-block">
         <div class="container">
-            <!-- Row 1: Content Left, Image Right -->
-            <div class="row escort-row align-items-center">
-                <div class="col-lg-6 escort-content-col">
-                    <h2 class="escort-title">Oversize Load<br>Escort</h2>
+            <!-- Hero Header -->
+            <div class="service-header text-center mx-auto mb-5">
+                <span class="service-tagline">Safe, Reliable Escort Services for Heavy Haul Transportation</span>
+                <h2 class="service-title">Oversized Load Escort Services</h2>
+                <p class="service-lead">
+                    Through our partnership with LA Traffic Signal Transportation, Los Angeles Signal Construction, Inc. provides professional oversized load escort and transportation support services throughout Southern California. We specialize in safely guiding heavy haul and oversized load movements while ensuring full compliance with state and local transportation regulations.
+                </p>
+                <div class="service-description">
+                    <p>
+                        Our experienced team delivers comprehensive logistical planning and escort services for a wide range of transportation projects, helping contractors, utility companies, municipalities, and private organizations move oversized equipment and materials safely and efficiently.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Alternating Visual Feature Showcase -->
+            <div class="row align-items-center escort-row mb-5">
+                <div class="col-lg-6 escort-content-col pe-lg-4">
+                    <h3 class="escort-title fs-2">Proactive Route Evaluation &amp; Clearance Planning</h3>
                     <p class="escort-lead">
-                        This company in collaboration with Los Angeles Signal Construction, Inc will be able to assist with the oversize load's escort services and the bonding for any prime contracts.
+                        Every oversized transport begins with meticulous field surveys and multi-agency coordination.
                     </p>
                     <p class="escort-text">
-                        Our custom escort and guard services for traffic continuously shifting to make way for your extraheavy/outsized impact. We will make you with all facets of your move from route surveying for proper clearance to coordinating deeds, road permits, and escort services you will though get the your final delivery customer service and safety has always key priority in in the firm any questions, comments, or concerns about any facet of our operation, please feel free to contact us: we'll will always happy to assist you in any way possible.
+                        Our knowledgeable team works closely with project owners, transportation companies, utility providers, and permitting agencies to carefully evaluate each route, identify potential obstacles, and coordinate all required clearances before transport begins.
+                    </p>
+                    <p class="escort-text">
+                        Through detailed planning and proactive communication, we help ensure every move is completed safely, efficiently, and on schedule without costly route delays.
                     </p>
                 </div>
                 <div class="col-lg-6 escort-img-col">
                     <div class="escort-img-wrap">
-                        <img src="images/image1.jpg" alt="Oversize Load Escort Truck" class="img-fluid">
+                        <a href="images/image1.jpg" data-fancybox="escort-gallery" data-caption="Heavy Haul Escort Operations">
+                            <img src="images/image1.jpg" alt="Heavy Haul Escort Operations" class="img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Row 2: Image Left, Content Right -->
-            <div class="row escort-row align-items-center">
+            <div class="row align-items-center escort-row flex-lg-row-reverse mb-5">
+                <div class="col-lg-6 escort-content-col ps-lg-4">
+                    <h3 class="escort-title fs-2">Comprehensive Heavy Transport Support</h3>
+                    <p class="escort-lead">
+                        From heavy signal poles to specialized machinery, we provide end-to-end transport logistics.
+                    </p>
+                    <p class="escort-text">
+                        Oversized load transportation requires more than simply escorting a vehicle—it demands careful coordination, regulatory compliance, and attention to every detail. Our services include route analysis, transportation logistics, lifting and equipment coordination, permit assistance, and field support throughout every phase of the move.
+                    </p>
+                    <p class="escort-text">
+                        Whether transporting traffic signal poles, street lighting equipment, electrical infrastructure, construction materials, or specialized heavy equipment, our team provides dependable solutions that minimize delays and maximize safety.
+                    </p>
+                </div>
                 <div class="col-lg-6 escort-img-col">
                     <div class="escort-img-wrap">
-                        <img src="images/image2.jpg" alt="LA Signal Service Utility Truck" class="img-fluid">
+                        <a href="images/image2.jpg" data-fancybox="escort-gallery" data-caption="Oversized Load Pilot Vehicle Support">
+                            <img src="images/image2.jpg" alt="Oversized Load Pilot Vehicle Support" class="img-fluid">
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 escort-content-col">
-                    <p class="escort-text">
-                        Our structure team consisting support immediate, is capable of coordinating/escorting engine oversize loads such as the electrical trunk, a 240-ton turbine generator mount/haul that took place in Pasadena.
-                    </p>
-                    <p class="escort-text">
-                        We have highly trained personnel to conform to standard/all safety precautions and standards. We are always positioned to provide ample/prompt assist in the preliminary and final disposition of all navigations, customer's job managing and state agencies. Our aim is to trouble-shoot and provide/deliver initial structure/clearance to final oversized accepted at the standpoint of pedestrian.
-                    </p>
-                    <p class="escort-text">
-                        We comply with government laws, adhere strictly to maintaining the water, health and feeder systems as far as constructability; assist furnish sewer-water-power/structures that connect/cross-connect by utilities/cooperate with connecting systems and our loops meet all high voltage standards. A must for next/long life project helped our reliability.
-                    </p>
+            </div>
+
+            <!-- Services Checklist Grid -->
+            <div class="service-section-wrap service-services-block">
+                <div class="text-center mb-4">
+                    <h3 class="service-section-heading">Our Oversized Load Escort Services Include</h3>
+                    <p class="service-section-sub">Comprehensive logistics and field escort solutions for heavy haul transportation.</p>
+                </div>
+
+                <div class="row g-3 g-lg-4 service-checklist-grid">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Certified Pilot Car &amp; Escort Vehicle Services</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Oversized &amp; Heavy Haul Load Escort</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Route Surveys &amp; Route Planning</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Utility &amp; Overhead Clearance Coordination</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Transportation Logistics &amp; Scheduling</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Permit &amp; Encroachment Assistance</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Bonding Support for Prime Contracts</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Coordination with Utility Companies &amp; Agencies</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Traffic Control Coordination</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Jobsite Delivery Planning &amp; Execution</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="service-check-item">
+                            <div class="check-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                            </div>
+                            <span class="check-text">Emergency Route Adjustments &amp; Field Support</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Two-Column Block: Safety Compliance & Trusted Partnership -->
+            <div class="service-section-wrap service-split-block">
+                <div class="row g-4 g-lg-5 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="service-feature-card h-100">
+                            <div class="feature-card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                            </div>
+                            <h3>Safety &amp; Regulatory Compliance</h3>
+                            <p>
+                                Safety is our highest priority. As a licensed, bonded, and fully insured Union Contractor, Los Angeles Signal Construction maintains strict compliance with all California Department of Transportation (Caltrans) requirements, California Vehicle Code regulations, OSHA and Cal/OSHA standards, and applicable local permitting agencies.
+                            </p>
+                            <p>
+                                Every escort operation is carefully planned and executed to protect motorists, project personnel, transported equipment, and surrounding communities while maintaining efficient project schedules.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="service-feature-card h-100">
+                            <div class="feature-card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                            </div>
+                            <h3>A Trusted Transportation Partner</h3>
+                            <p>
+                                At Los Angeles Signal Construction, Inc., we understand that successful transportation is essential to successful construction. Through our partnership with LA Traffic Signal Transportation, we provide dependable escort services and logistical support that help keep infrastructure projects moving safely, efficiently, and on time.
+                            </p>
+                            <p>
+                                Our commitment to integrity, professionalism, and exceptional customer service has made us a trusted partner for municipalities, utility companies, general contractors, and transportation providers throughout Southern California.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Closing Section: CTA Banner -->
+            <div class="service-cta-banner">
+                <div class="row align-items-center justify-content-between g-4">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <span class="cta-badge">Professional Escort Services. Safe Transportation. Reliable Project Support.</span>
+                        <h3 class="cta-title">Your Trusted Partner in Heavy Haul Logistics</h3>
+                        <p class="cta-text">
+                            At Los Angeles Signal Construction, Inc., we deliver dependable oversized load escort and transportation support services that protect equipment, personnel, and communities throughout Southern California.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <a href="contact.php" class="btn btn-secondary">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 </main>
