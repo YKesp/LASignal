@@ -45,10 +45,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="street-lighting.php">Street Lighting</a>
-                                <ul class="sub-menu">
-                                     <li><a href="about.php">About Us</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="traffic-signals.php">Traffic Signals</a>

@@ -12,10 +12,11 @@
             <div class="service-header text-center mx-auto">
                 <span class="service-tagline">Trenchless Utility Installation with Precision and Efficiency</span>
                 <h2 class="service-title">Directional Boring Services</h2>
-                <p class="service-lead">
-                    At Los Angeles Signal Construction, Inc., we provide professional Horizontal Directional Drilling (HDD) and directional boring services for the safe, efficient, and environmentally responsible installation of underground utilities throughout Southern California. Our trenchless construction methods minimize surface disruption while delivering accurate, reliable underground infrastructure for transportation and utility projects.
-                </p>
+                
                 <div class="service-description">
+                    <p>
+                    At <strong>Los Angeles Signal Construction, Inc.</strong>, we provide professional <strong>Horizontal Directional Drilling (HDD)</strong> and directional boring services for the safe, efficient, and environmentally responsible installation of underground utilities throughout Southern California. Our trenchless construction methods minimize surface disruption while delivering accurate, reliable underground infrastructure for transportation and utility projects.
+                </p>
                     <p>
                         Directional boring is the preferred solution for installing conduit and underground utility systems beneath roadways, sidewalks, landscaped areas, railroads, waterways, and existing infrastructure without the need for extensive excavation. This method reduces traffic impacts, protects surrounding property, lowers restoration costs, and keeps projects moving efficiently.
                     </p>
@@ -66,7 +67,6 @@
             <div class="service-section-wrap service-services-block">
                 <div class="text-center mb-4">
                     <h3 class="service-section-heading">Our Directional Boring Services Include</h3>
-                    <p class="service-section-sub">State-of-the-art Horizontal Directional Drilling and underground conduit solutions.</p>
                 </div>
 
                 <div class="row g-3 g-lg-4 service-checklist-grid">
@@ -197,7 +197,7 @@
                             </div>
                             <h3>Committed to Safety &amp; Quality</h3>
                             <p>
-                                As a licensed, bonded, and fully insured Union Contractor, Los Angeles Signal Construction maintains the highest standards of safety, quality, and professionalism. We strictly adhere to OSHA and Cal/OSHA regulations, utility company requirements, Caltrans standards, and all applicable local, state, and federal regulations.
+                                As a <strong>licensed, bonded, and fully insured Union Contractor</strong>, Los Angeles Signal Construction maintains the highest standards of safety, quality, and professionalism. We strictly adhere to <strong>OSHA and Cal/OSHA regulations</strong>, utility company requirements, Caltrans standards, and all applicable local, state, and federal regulations.
                             </p>
                             <p>
                                 From pre-construction planning and utility coordination to permitting, drilling operations, testing, and final restoration, our team ensures every project is completed safely, efficiently, and on schedule.
@@ -211,10 +211,10 @@
             <div class="service-cta-banner">
                 <div class="row align-items-center justify-content-between g-4">
                     <div class="col-lg-8 text-center text-lg-start">
-                        <span class="cta-badge">Precision Underground. Minimal Surface Impact. Maximum Reliability.</span>
+                        <span class="cta-badge"><strong>Precision Underground. Minimal Surface Impact. Maximum Reliability.</strong></span>
                         <h3 class="cta-title">Building Underground Infrastructure for Tomorrow</h3>
                         <p class="cta-text">
-                            At Los Angeles Signal Construction, Inc., we are committed to delivering innovative trenchless construction solutions that support safer roads, stronger utility networks, and sustainable infrastructure throughout Southern California.
+                            At <strong>Los Angeles Signal Construction, Inc.,</strong> we are committed to delivering innovative trenchless construction solutions that support safer roads, stronger utility networks, and sustainable infrastructure throughout Southern California.
                         </p>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function () {
             pagination: false,
             autoplay: false,
             speed: 600,
+            easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
             updateOnMove: true,
             trimSpace: false,
             breakpoints: {
@@ -254,10 +255,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     gap: '12px'
                 }
             }
-        });
-
-        serviceSplide.on('moved', function () {
-            serviceSplide.refresh();
         });
 
         serviceSplide.mount();

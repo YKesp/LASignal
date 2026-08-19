@@ -12,10 +12,11 @@
             <div class="service-header text-center mx-auto">
                 <span class="service-tagline">Reliable Traffic Signal Solutions for Safer Communities</span>
                 <h2 class="service-title">Traffic Signal Construction</h2>
-                <p class="service-lead">
-                    At Los Angeles Signal Construction, Inc., we specialize in the construction, installation, modification, and modernization of traffic signal systems throughout Southern California. With decades of combined industry experience, we have successfully completed thousands of traffic signal and intelligent transportation infrastructure projects for municipalities, public agencies, developers, and general contractors.
-                </p>
+               
                 <div class="service-description">
+                     <p>
+                    At <strong>Los Angeles Signal Construction, Inc.</strong>, we specialize in the construction, installation, modification, and modernization of traffic signal systems throughout Southern California. With decades of combined industry experience, we have successfully completed thousands of traffic signal and intelligent transportation infrastructure projects for municipalities, public agencies, developers, and general contractors.
+                </p>
                     <p>
                         Our experienced union workforce delivers complete turnkey traffic signal solutions designed to improve roadway safety, traffic efficiency, and pedestrian accessibility while meeting the highest industry standards.
                     </p>
@@ -206,7 +207,7 @@
                             </div>
                             <h3>Safety &amp; Quality You Can Trust</h3>
                             <p>
-                                Safety is the cornerstone of every project we perform. As a licensed, bonded, and fully insured Union Contractor, Los Angeles Signal Construction maintains strict compliance with OSHA and Cal/OSHA regulations while implementing comprehensive quality control measures throughout every phase of construction.
+                                Safety is the cornerstone of every project we perform. As a <strong>licensed, bonded, and fully insured Union Contractor</strong>, Los Angeles Signal Construction maintains strict compliance with OSHA and Cal/OSHA regulations while implementing comprehensive quality control measures throughout every phase of construction.
                             </p>
                             <p>
                                 Our team works closely with project owners, engineers, utility companies, inspectors, and local agencies to ensure seamless coordination, timely project delivery, and minimal disruption to the traveling public.
@@ -265,6 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
             pagination: false,
             autoplay: false,
             speed: 600,
+            easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
             updateOnMove: true,
             trimSpace: false,
             breakpoints: {
@@ -278,10 +280,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     gap: '12px'
                 }
             }
-        });
-
-        serviceSplide.on('moved', function () {
-            serviceSplide.refresh();
         });
 
         serviceSplide.mount();

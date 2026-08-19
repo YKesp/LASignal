@@ -35,7 +35,9 @@ $navbar-height: 0;
     @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
       @content;
     }
-  } @else {
+  }
+
+  @else {
     @media screen and (max-width: $breakpoint) {
       @content;
     }
@@ -50,10 +52,22 @@ $navbar-height: 0;
 
 @mixin position-absolute($top: null, $right: null, $bottom: null, $left: null) {
   position: absolute;
-  @if $top { top: $top; }
-  @if $right { right: $right; }
-  @if $bottom { bottom: $bottom; }
-  @if $left { left: $left; }
+
+  @if $top {
+    top: $top;
+  }
+
+  @if $right {
+    right: $right;
+  }
+
+  @if $bottom {
+    bottom: $bottom;
+  }
+
+  @if $left {
+    left: $left;
+  }
 }
 
 @mixin transition($property: all, $duration: 0.2s, $timing: linear) {
@@ -95,9 +109,13 @@ $navbar-height: 0;
   display: block;
   color: #FFF;
 
-  &:hover {
-    background: map-get($colors, primary);
-    color: #fff;
+  &:hover,
+  &:focus,
+  &.active,
+  &.hover,
+  &.clicked {
+    background: map-get($colors, primary) !important;
+    color: #fff !important;
   }
 }
 
@@ -109,13 +127,17 @@ $navbar-height: 0;
   top: 0;
   z-index: 1022;
   min-width: 290px;
+
   @include respond-to(md) {
     background: #fff;
     position: sticky;
-    }
-  .container{
-    max-width: 1434px;;
   }
+
+  .container {
+    max-width: 1434px;
+    ;
+  }
+
   .upper-header {
     padding: 17px 0;
     font-size: 20px;
@@ -126,14 +148,16 @@ $navbar-height: 0;
       color: #000;
       text-decoration: none;
     }
-    .phone{
+
+    .phone {
       font-family: var(--unbounded);
       font-size: 20px;
       font-weight: 700;
       color: #fff;
-      padding-left:45px;
+      padding-left: 45px;
       position: relative;
-      &:after{
+
+      &:after {
         content: "\f095";
         font-family: "Font Awesome 6 Free";
         font-weight: 900;
@@ -143,7 +167,8 @@ $navbar-height: 0;
         transform: translateY(-50%);
         width: 31px;
         height: 31px;
-        line-height: 31px;;
+        line-height: 31px;
+        ;
         background: var(--secondary);
         border-radius: 50%;
         display: block;
@@ -152,11 +177,13 @@ $navbar-height: 0;
         text-align: center;
       }
     }
-    .info-list{
-      li{
-        border-right: 1px solid rgba(255,255,255,0.6);
-        padding:0 25px;
-        a{
+
+    .info-list {
+      li {
+        border-right: 1px solid rgba(255, 255, 255, 0.6);
+        padding: 0 25px;
+
+        a {
           color: var(--secondary);
           font-weight: 600;
           font-family: var(--barlow);
@@ -168,53 +195,68 @@ $navbar-height: 0;
 
   &.scrolled {
     background: #fff;
-     box-shadow: 0 0.38em 1em rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.38em 1em rgba(0, 0, 0, 0.25);
+
     .upper-header {
       max-height: 0;
       overflow: hidden;
       padding: 0;
     }
+
     .navbar-nav {
-      li{
-       &:hover, &.clicked, &.hover {
+      li {
+
+        &:hover,
+        &.clicked,
+        &.hover {
           .nav-link {
             color: #fff !important;
             background: var(--primary);
           }
         }
-        }
+      }
+
       .nav-link {
-          color: map-get($colors, dark);
-          @include respond-to(md) {
-            color: #fff;
-            &:hover, &.active, &.current-menu-item, &.clicked, &.hover {
-              color: #000 !important;
-              background: var(--primary);
-            }
+        color: map-get($colors, dark);
+
+        @include respond-to(md) {
+          color: #fff;
+
+          &:hover,
+          &.active,
+          &.current-menu-item,
+          &.clicked,
+          &.hover {
+            color: #fff !important;
+            background: var(--primary);
           }
         }
       }
-       .navbar-brand {
-          margin-top: 0 !important;
-          width: 170px  !important;
-          @include respond-to(lg) {
-            width: 140px !important;
-            min-width: 140px !important;
-            margin-top: 0;
-            
-          }
-        }
     }
+
+    .navbar-brand {
+      margin-top: 0 !important;
+      width: 170px !important;
+
+      @include respond-to(lg) {
+        width: 140px !important;
+        min-width: 140px !important;
+        margin-top: 0;
+
+      }
+    }
+  }
 
   .navbar {
     min-width: 290px;
     position: static !important;
     justify-content: center;
     padding: 0;
-     @include respond-to(md) {
+
+    @include respond-to(md) {
       border-bottom: 1px solid #fff;
       padding: 15px 0;
-     }
+    }
   }
 
   .btn-primary {
@@ -240,11 +282,12 @@ $navbar-height: 0;
 // Logo
 .navbar-brand {
   padding: 0;
-     margin-top: -50px;
- 
-   @include respond-to(sm) {
-     margin-top: 0;
+  margin-top: -50px;
+
+  @include respond-to(sm) {
+    margin-top: 0;
   }
+
   // @include respond-to(xl) {
   //   width: $logo-width-lg;
   //   min-width: 350px;
@@ -258,8 +301,8 @@ $navbar-height: 0;
   @include respond-to(lg) {
     width: 140px;
     min-width: 140px;
-     margin-top: 0;
-    
+    margin-top: 0;
+
   }
 
   @include respond-to(xs) {
@@ -278,8 +321,9 @@ $navbar-height: 0;
 .navbar-nav {
   >li {
     position: relative;
-    padding: #{$navbar-height} 9px;
+    padding: #{$navbar-height} 0;
     border-bottom: 2px solid transparent;
+    margin: 0 5px;
 
     &:first-child {
       margin-left: 0;
@@ -367,7 +411,7 @@ $navbar-height: 0;
   .nav-link {
     color: map-get($colors, navlink);
     text-decoration: none;
-    padding: 10px 0 !important;
+    padding: 10px 9px !important;
     font-weight: 600;
     height: 100%;
     display: block;
@@ -401,7 +445,8 @@ $navbar-height: 0;
     color: map-get($colors, navlinkhover);
 
     @include respond-to(md) {
-      background: #fff;
+      background: var(--primary) !important;
+      color: #fff !important;
     }
   }
 }
@@ -593,17 +638,18 @@ $navbar-height: 0;
       // }
     }
 
-    &.hover {
+    &.hover,
+    &.clicked {
       &.menu-item-has-children {
 
         &::after {
-          border-bottom-color: var(--primary) !important;
-          border-left-color: var(--primary) !important;
+          border-bottom-color: #fff !important;
+          border-left-color: #fff !important;
         }
 
         >a.nav-link {
-          background: white;
-          color: var(--primary);
+          background: var(--primary) !important;
+          color: #fff !important;
         }
       }
     }
@@ -617,8 +663,15 @@ $navbar-height: 0;
 
       &:hover,
       &.active,
+      &.hover,
+      &.clicked,
       &.current-menu-item {
         border-bottom: 0 !important;
+
+        .nav-link {
+          background: var(--primary) !important;
+          color: #fff !important;
+        }
       }
     }
 
@@ -866,7 +919,7 @@ $navbar-height: 0;
 }
 
 // Custom Checkbox
-.custom-checkbox:checked + .check::after {
+.custom-checkbox:checked+.check::after {
   content: "✔";
   color: white;
   font-size: 14px;

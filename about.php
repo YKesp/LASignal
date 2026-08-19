@@ -13,7 +13,7 @@
                 <span class="about-tagline">Building Safer Roads. Delivering Trusted Solutions.</span>
                 <h2 class="about-main-title">About Los Angeles Signal Construction, Inc.</h2>
                 <p class="about-intro-lead">
-                    Since 2005, Los Angeles Signal Construction, Inc. (LAS) has been a trusted leader in traffic signal and street lighting infrastructure throughout Southern California. We are dedicated to delivering innovative, high-quality traffic control solutions that improve roadway safety, enhance mobility, and strengthen the communities we serve.
+                    Since <strong>2005, Los Angeles Signal Construction, Inc. (LAS)</strong> has been a trusted leader in traffic signal and street lighting infrastructure throughout Southern California. We are dedicated to delivering innovative, high-quality traffic control solutions that improve roadway safety, enhance mobility, and strengthen the communities we serve.
                 </p>
             </div>
 
@@ -149,7 +149,7 @@
                                 With a highly skilled union workforce and experienced project management team, we successfully deliver projects ranging from small municipal improvements to large-scale, multi-phase infrastructure developments.
                             </p>
                             <p>
-                                As a licensed, bonded, and fully insured Union Contractor, safety is the foundation of everything we do. Our company maintains strict compliance with OSHA regulations, Cal/OSHA requirements, and all applicable federal, state, and local laws and regulations. Through continuous training, proactive planning, and a strong safety culture, we ensure the well-being of our employees, clients, and the public on every job site.
+                                As a <strong>licensed, bonded, and fully insured Union Contractor</strong>, safety is the foundation of everything we do. Our company maintains strict compliance with  <strong>OSHA regulations</strong>, Cal/OSHA requirements, and all applicable federal, state, and local laws and regulations. Through continuous training, proactive planning, and a strong safety culture, we ensure the well-being of our employees, clients, and the public on every job site.
                             </p>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                                 Beyond construction, we provide comprehensive project support by assisting clients with permitting, utility coordination, encroachment permits, inspections, and agency communication, helping streamline projects from planning through final acceptance.
                             </p>
                             <p>
-                                At Los Angeles Signal Construction, Inc., we believe that our success is built on integrity, accountability, reliability, and exceptional customer service. We are proud to partner with public agencies, general contractors, developers, and private organizations to build safer intersections, smarter transportation systems, and stronger communities throughout Southern California.
+                                At <strong>Los Angeles Signal Construction, Inc.</strong>, we believe that our success is built on <strong>integrity, accountability, reliability, and exceptional customer service</strong>. We are proud to partner with public agencies, general contractors, developers, and private organizations to build safer intersections, smarter transportation systems, and stronger communities throughout Southern California.
                             </p>
                         </div>
                     </div>

@@ -138,7 +138,7 @@
     <div class="block action-block">
         <div class="container">
             <h3 class="text-start">We welcome any inquiries <br>you may have</h3>
-            <div class="d-flex justify-content-center gap-5 mt-4">
+            <div class="d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-5 mt-4">
                 <a href="#" class="btn btn-primary">Inquiry Form</a>
                 <a href="#" class="btn btn-danger">Request a Call</a>
             </div>

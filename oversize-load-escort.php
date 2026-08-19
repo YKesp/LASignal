@@ -12,69 +12,23 @@
             <div class="service-header text-center mx-auto mb-5">
                 <span class="service-tagline">Safe, Reliable Escort Services for Heavy Haul Transportation</span>
                 <h2 class="service-title">Oversized Load Escort Services</h2>
-                <p class="service-lead">
-                    Through our partnership with LA Traffic Signal Transportation, Los Angeles Signal Construction, Inc. provides professional oversized load escort and transportation support services throughout Southern California. We specialize in safely guiding heavy haul and oversized load movements while ensuring full compliance with state and local transportation regulations.
-                </p>
                 <div class="service-description">
+                    <p>
+                    Through our partnership with <strong>LA Traffic Signal Transportation</strong>, <strong>Los  Angeles Signal Construction, Inc.</strong> provides professional oversized load  escort and transportation support services throughout Southern California. We  specialize in safely guiding heavy haul and oversized load movements while  ensuring full compliance with state and local transportation regulations.
+                </p>
                     <p>
                         Our experienced team delivers comprehensive logistical planning and escort services for a wide range of transportation projects, helping contractors, utility companies, municipalities, and private organizations move oversized equipment and materials safely and efficiently.
                     </p>
                 </div>
             </div>
-
-            <!-- Alternating Visual Feature Showcase -->
-            <div class="row align-items-center escort-row mb-5">
-                <div class="col-lg-6 escort-content-col pe-lg-4">
-                    <h3 class="escort-title fs-2">Proactive Route Evaluation &amp; Clearance Planning</h3>
-                    <p class="escort-lead">
-                        Every oversized transport begins with meticulous field surveys and multi-agency coordination.
-                    </p>
-                    <p class="escort-text">
-                        Our knowledgeable team works closely with project owners, transportation companies, utility providers, and permitting agencies to carefully evaluate each route, identify potential obstacles, and coordinate all required clearances before transport begins.
-                    </p>
-                    <p class="escort-text">
-                        Through detailed planning and proactive communication, we help ensure every move is completed safely, efficiently, and on schedule without costly route delays.
-                    </p>
-                </div>
-                <div class="col-lg-6 escort-img-col">
-                    <div class="escort-img-wrap">
-                        <a href="images/image1.jpg" data-fancybox="escort-gallery" data-caption="Heavy Haul Escort Operations">
-                            <img src="images/image1.jpg" alt="Heavy Haul Escort Operations" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row align-items-center escort-row flex-lg-row-reverse mb-5">
-                <div class="col-lg-6 escort-content-col ps-lg-4">
-                    <h3 class="escort-title fs-2">Comprehensive Heavy Transport Support</h3>
-                    <p class="escort-lead">
-                        From heavy signal poles to specialized machinery, we provide end-to-end transport logistics.
-                    </p>
-                    <p class="escort-text">
-                        Oversized load transportation requires more than simply escorting a vehicle—it demands careful coordination, regulatory compliance, and attention to every detail. Our services include route analysis, transportation logistics, lifting and equipment coordination, permit assistance, and field support throughout every phase of the move.
-                    </p>
-                    <p class="escort-text">
-                        Whether transporting traffic signal poles, street lighting equipment, electrical infrastructure, construction materials, or specialized heavy equipment, our team provides dependable solutions that minimize delays and maximize safety.
-                    </p>
-                </div>
-                <div class="col-lg-6 escort-img-col">
-                    <div class="escort-img-wrap">
-                        <a href="images/image2.jpg" data-fancybox="escort-gallery" data-caption="Oversized Load Pilot Vehicle Support">
-                            <img src="images/image2.jpg" alt="Oversized Load Pilot Vehicle Support" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Services Checklist Grid -->
+  <!-- Services Checklist Grid -->
             <div class="service-section-wrap service-services-block">
                 <div class="text-center mb-4">
                     <h3 class="service-section-heading">Our Oversized Load Escort Services Include</h3>
                     <p class="service-section-sub">Comprehensive logistics and field escort solutions for heavy haul transportation.</p>
                 </div>
 
-                <div class="row g-3 g-lg-4 service-checklist-grid">
+                <div class="row g-3 g-lg-4 service-checklist-grid mb-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="service-check-item">
                             <div class="check-icon">
@@ -164,42 +118,44 @@
                         </div>
                     </div>
                 </div>
+                <p>Our knowledgeable team works closely with project owners, transportation companies, utility providers, and permitting agencies to carefully evaluate each route, identify potential obstacles, and coordinate all required clearances before transport begins. Through detailed planning and proactive communication, we help ensure every move is completed safely, efficiently, and on schedule.</p>
             </div>
-
-            <!-- Two-Column Block: Safety Compliance & Trusted Partnership -->
-            <div class="service-section-wrap service-split-block">
-                <div class="row g-4 g-lg-5 align-items-stretch">
-                    <div class="col-lg-6">
-                        <div class="service-feature-card h-100">
-                            <div class="feature-card-icon">
-                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
-                            </div>
-                            <h3>Safety &amp; Regulatory Compliance</h3>
-                            <p>
-                                Safety is our highest priority. As a licensed, bonded, and fully insured Union Contractor, Los Angeles Signal Construction maintains strict compliance with all California Department of Transportation (Caltrans) requirements, California Vehicle Code regulations, OSHA and Cal/OSHA standards, and applicable local permitting agencies.
-                            </p>
-                            <p>
-                                Every escort operation is carefully planned and executed to protect motorists, project personnel, transported equipment, and surrounding communities while maintaining efficient project schedules.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="service-feature-card h-100">
-                            <div class="feature-card-icon">
-                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                            </div>
-                            <h3>A Trusted Transportation Partner</h3>
-                            <p>
-                                At Los Angeles Signal Construction, Inc., we understand that successful transportation is essential to successful construction. Through our partnership with LA Traffic Signal Transportation, we provide dependable escort services and logistical support that help keep infrastructure projects moving safely, efficiently, and on time.
-                            </p>
-                            <p>
-                                Our commitment to integrity, professionalism, and exceptional customer service has made us a trusted partner for municipalities, utility companies, general contractors, and transportation providers throughout Southern California.
-                            </p>
-                        </div>
+            <!-- Alternating Visual Feature Showcase -->
+            <div class="row align-items-center escort-row mb-5">
+                <div class="col-lg-6 escort-content-col pe-lg-4">
+                    <h3 class="escort-title fs-2">Comprehensive Transportation Support</h3>
+                     <p>
+                    Oversized load transportation requires more than simply escorting a vehicle—it demands careful coordination, regulatory compliance, and attention to every detail. Our services include route analysis, transportation logistics, lifting and equipment coordination, permit assistance, and field support throughout every phase of the move.
+                </p>
+                    <p>
+                        Whether transporting traffic signal poles, street lighting equipment, electrical infrastructure, construction materials, or specialized heavy equipment, our team provides dependable solutions that minimize delays and maximize safety.
+                    </p>
+                </div>
+                <div class="col-lg-6 escort-img-col">
+                    <div class="escort-img-wrap">
+                        <a href="images/image1.jpg" data-fancybox="escort-gallery" data-caption="Heavy Haul Escort Operations">
+                            <img src="images/image1.jpg" alt="Heavy Haul Escort Operations" class="img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <div class="row align-items-center escort-row flex-lg-row-reverse mb-5">
+                <div class="col-lg-6 escort-content-col ps-lg-4">
+                    <h3 class="escort-title fs-2">Safety & Regulatory Compliance</h3>
+                    <p>Safety is our highest priority. As a <strong>licensed, bonded, and fully  insured Union Contractor</strong>, Los Angeles Signal Construction maintains strict  compliance with all <strong>California Department of Transportation (Caltrans)</strong> requirements, California Vehicle Code regulations, OSHA and Cal/OSHA standards,  and applicable local permitting agencies.</p>
+                    <p>Every escort operation is carefully planned and executed to protect  motorists, project personnel, transported equipment, and surrounding  communities while maintaining efficient project schedules.</p>
+                </div>
+                <div class="col-lg-6 escort-img-col">
+                    <div class="escort-img-wrap">
+                        <a href="images/image2.jpg" data-fancybox="escort-gallery" data-caption="Oversized Load Pilot Vehicle Support">
+                            <img src="images/image2.jpg" alt="Oversized Load Pilot Vehicle Support" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        
 
             <!-- Closing Section: CTA Banner -->
             <div class="service-cta-banner">

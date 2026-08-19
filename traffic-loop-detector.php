@@ -12,10 +12,11 @@
             <div class="service-header text-center mx-auto">
                 <span class="service-tagline">Precision Vehicle Detection for Smarter Traffic Control</span>
                 <h2 class="service-title">Traffic Loop Detection Systems</h2>
-                <p class="service-lead">
-                    At Los Angeles Signal Construction, Inc., we specialize in the installation, repair, replacement, and maintenance of traffic loop detection systems throughout Southern California. These systems play a critical role in modern traffic management by providing accurate vehicle detection that improves signal timing, traffic flow, and roadway safety.
-                </p>
+                
                 <div class="service-description">
+                    <p>
+                    At <strong>Los Angeles Signal Construction, Inc.</strong>, we specialize in the installation, repair, replacement, and maintenance of <strong>traffic loop detection systems</strong> throughout Southern California. These systems play a critical role in modern traffic management by providing accurate vehicle detection that improves signal timing, traffic flow, and roadway safety.
+                </p>
                     <p>
                         Our experienced union workforce installs high-performance loop detector systems for municipalities, transportation agencies, commercial developments, and private facilities. Whether supporting a new traffic signal installation or upgrading an existing intersection, we deliver reliable solutions designed for long-term performance.
                     </p>
@@ -197,7 +198,7 @@
                             </div>
                             <h3>Committed to Safety &amp; Quality</h3>
                             <p>
-                                As a licensed, bonded, and fully insured Union Contractor, Los Angeles Signal Construction maintains the highest standards of safety, workmanship, and quality control.
+                                As a <strong>licensed, bonded, and fully insured Union Contractor</strong>, Los Angeles Signal Construction maintains the highest standards of safety, workmanship, and quality control.
                             </p>
                             <p>
                                 We work closely with project owners, engineers, municipalities, utility companies, and inspection agencies to ensure every traffic detection system is installed efficiently, tested thoroughly, and fully operational before project completion.
@@ -214,7 +215,7 @@
                         <span class="cta-badge">Precision Installation. Reliable Detection. Safer Roads.</span>
                         <h3 class="cta-title">Supporting Smarter Transportation Infrastructure</h3>
                         <p class="cta-text">
-                            Reliable vehicle detection is essential to safer intersections, improved traffic flow, and intelligent transportation systems. At Los Angeles Signal Construction, Inc., we are committed to delivering dependable traffic loop detection solutions that help communities operate more safely and efficiently.
+                            Reliable vehicle detection is essential to safer intersections, improved traffic flow, and intelligent transportation systems. At  <strong>Los Angeles Signal Construction, Inc.</strong>, we are committed to delivering dependable traffic loop detection solutions that help communities operate more safely and efficiently.
                         </p>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -241,6 +242,7 @@ document.addEventListener('DOMContentLoaded', function () {
             pagination: false,
             autoplay: false,
             speed: 600,
+            easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
             updateOnMove: true,
             trimSpace: false,
             breakpoints: {
@@ -254,10 +256,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     gap: '12px'
                 }
             }
-        });
-
-        serviceSplide.on('moved', function () {
-            serviceSplide.refresh();
         });
 
         serviceSplide.mount();

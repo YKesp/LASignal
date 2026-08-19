@@ -12,10 +12,11 @@
             <div class="service-header text-center mx-auto">
                 <span class="service-tagline">Illuminating Roads. Enhancing Safety. Building Stronger Communities.</span>
                 <h2 class="service-title">Street Lighting Services</h2>
-                <p class="service-lead">
-                    At Los Angeles Signal Construction, Inc., we provide comprehensive street lighting solutions that improve roadway safety, increase visibility, and enhance the appearance and functionality of public infrastructure throughout Southern California. From new installations to system upgrades and maintenance, we deliver reliable lighting systems built to perform for years to come.
-                </p>
+                
                 <div class="service-description">
+                    <p>
+                    At <strong>Los Angeles Signal Construction, Inc.</strong>, we provide comprehensive street lighting solutions that improve roadway safety, increase visibility, and enhance the appearance and functionality of public infrastructure throughout Southern California. From new installations to system upgrades and maintenance, we deliver reliable lighting systems built to perform for years to come.
+                </p>
                     <p>
                         Our experienced union workforce specializes in the construction, installation, and modernization of street lighting systems for municipalities, transportation agencies, commercial developments, and private projects. Whether it's a single intersection or a large-scale roadway improvement, we are committed to delivering quality workmanship with precision and efficiency.
                     </p>
@@ -224,7 +225,7 @@
                         <span class="cta-badge">Lighting the Way Since 2005</span>
                         <h3 class="cta-title">Reliable Infrastructure for the Future</h3>
                         <p class="cta-text">
-                            At Los Angeles Signal Construction, Inc., we understand that dependable street lighting is essential for safer roads, stronger communities, and improved quality of life. Our commitment to craftsmanship, integrity, and customer satisfaction allows us to deliver lighting infrastructure that supports the long-term growth of Southern California.
+                            At <strong>Los Angeles Signal Construction, Inc.</strong>, we understand that dependable street lighting is essential for safer roads, stronger communities, and improved quality of life. Our commitment to craftsmanship, integrity, and customer satisfaction allows us to deliver lighting infrastructure that supports the long-term growth of Southern California.
                         </p>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -251,6 +252,7 @@ document.addEventListener('DOMContentLoaded', function () {
             pagination: false,
             autoplay: false,
             speed: 600,
+            easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
             updateOnMove: true,
             trimSpace: false,
             breakpoints: {
@@ -264,10 +266,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     gap: '12px'
                 }
             }
-        });
-
-        serviceSplide.on('moved', function () {
-            serviceSplide.refresh();
         });
 
         serviceSplide.mount();
