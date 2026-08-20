@@ -11,7 +11,7 @@
             <div class="projects-page-grid">
                 <!-- Card 1 -->
                 <div class="project-item">
-                    <a href="images/project-img1.jpg" class="project-card" data-fancybox="projects" data-caption="Costco Wholesale Torrance">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/project-img1.jpg" alt="Costco Wholesale Torrance" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -26,7 +26,7 @@
 
                 <!-- Card 2 (Active/Highlighted State) -->
                 <div class="project-item">
-                    <a href="images/service-img2.jpg" class="project-card" data-fancybox="projects" data-caption="Wilshire La Brea">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/service-img2.jpg" alt="Wilshire La Brea" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -41,7 +41,7 @@
 
                 <!-- Card 3 -->
                 <div class="project-item">
-                    <a href="images/project-img3.jpg" class="project-card" data-fancybox="projects" data-caption="METRO's I405|SR134 Soundwall">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/project-img3.jpg" alt="METRO's I405|SR134 Soundwall" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -56,7 +56,7 @@
 
                 <!-- Card 4 -->
                 <div class="project-item">
-                    <a href="images/project-img4.jpg" class="project-card" data-fancybox="projects" data-caption="FedEx Shipping Center">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/project-img4.jpg" alt="FedEx Shipping Center" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -71,7 +71,7 @@
 
                 <!-- Card 5 -->
                 <div class="project-item">
-                    <a href="images/project-img5.jpg" class="project-card" data-fancybox="projects" data-caption="Hoag Health Center">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/project-img5.jpg" alt="Hoag Health Center" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -86,7 +86,7 @@
 
                 <!-- Card 6 -->
                 <div class="project-item">
-                    <a href="images/traffic-signal-2.png" class="project-card" data-fancybox="projects" data-caption="Henry Mayo">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/traffic-signal-2.png" alt="Henry Mayo" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -101,7 +101,7 @@
 
                 <!-- Card 7 -->
                 <div class="project-item">
-                    <a href="images/img03.jpg" class="project-card" data-fancybox="projects" data-caption="La Cienega Blvd & Fairview Blvd">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/img03.jpg" alt="La Cienega Blvd & Fairview Blvd" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -116,7 +116,7 @@
 
                 <!-- Card 8 -->
                 <div class="project-item">
-                    <a href="images/oversize-load.jpg" class="project-card" data-fancybox="projects" data-caption="Central Region Elementary School #20">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/oversize-load.jpg" alt="Central Region Elementary School #20" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -131,7 +131,7 @@
 
                 <!-- Card 9 -->
                 <div class="project-item">
-                    <a href="images/img01.jpg" class="project-card" data-fancybox="projects" data-caption="Silver Lake">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/img01.jpg" alt="Silver Lake" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -146,7 +146,7 @@
 
                 <!-- Card 10 -->
                 <div class="project-item">
-                    <a href="images/banner1.jpg" class="project-card" data-fancybox="projects" data-caption="6870 Taylor Yard Master">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/banner1.jpg" alt="6870 Taylor Yard Master" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -161,7 +161,7 @@
 
                 <!-- Card 11 -->
                 <div class="project-item">
-                    <a href="images/traffic-signal-3.png" class="project-card" data-fancybox="projects" data-caption="Traffic Signal at Ave R">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/traffic-signal-3.png" alt="Traffic Signal at Ave R" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -176,7 +176,7 @@
 
                 <!-- Card 12 -->
                 <div class="project-item">
-                    <a href="images/img02.jpg" class="project-card" data-fancybox="projects" data-caption="Vance Lewis Bridge">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/img02.jpg" alt="Vance Lewis Bridge" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -191,7 +191,7 @@
 
                 <!-- Card 13 -->
                 <div class="project-item">
-                    <a href="images/service-img2.jpg" class="project-card" data-fancybox="projects" data-caption="CVS East Los Angeles">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/service-img2.jpg" alt="CVS East Los Angeles" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -206,7 +206,7 @@
 
                 <!-- Card 14 -->
                 <div class="project-item">
-                    <a href="images/service-img1.jpg" class="project-card" data-fancybox="projects" data-caption="City of Duarte">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/service-img1.jpg" alt="City of Duarte" class="img-fluid" loading="lazy">
                             <span class="card-notch">
@@ -221,7 +221,7 @@
 
                 <!-- Card 15 -->
                 <div class="project-item">
-                    <a href="images/service-img3.jpg" class="project-card" data-fancybox="projects" data-caption="City of Santa Clarita">
+                    <a href="./project-detail.php" class="project-card">
                         <div class="project-image-wrap">
                             <img src="images/service-img3.jpg" alt="City of Santa Clarita" class="img-fluid" loading="lazy">
                             <span class="card-notch">

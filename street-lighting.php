@@ -174,12 +174,26 @@
             <div class="service-section-wrap service-standards-block">
                 <div class="standards-banner-inner">
                     <div class="row align-items-center g-4">
-                        <div class="col-lg-2 text-center text-lg-start">
+                        <div class="col-lg-1 text-center text-lg-start">
                             <div class="standards-badge-icon">
-                                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                                <svg width="44" height="44" fill="#FFD800" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 160.6 245.6" style="enable-background:new 0 0 160.6 245.6;" xml:space="preserve">
+<path d="M160.6,80.5c0,44.5-36.1,80.5-80.6,80.4c-44.2-0.1-80-36.2-80-80.5C0,35.9,36.2-0.2,80.6,0C124.8,0.2,160.6,36.2,160.6,80.5
+	z M137.4,80.3c0-31.6-25.8-57.3-57.4-57.1c-31.4,0.2-56.8,25.7-56.9,57.1c0,31.7,25.6,57.4,57.1,57.4
+	C111.8,137.7,137.5,112,137.4,80.3z"/>
+<path d="M38.2,159.7c12.5,3.4,24.9,6.9,38.1,10.5c0,10.6-0.6,22.4,0.2,34.2c0.6,8.8-1.9,14.9-9.3,20c-8.3,5.8-15.6,12.9-23.5,19.4
+	c-1.1,0.9-2.9,1-4.3,1.5c-0.4-1.3-1.3-2.7-1.3-4c-0.1-26.8-0.1-53.6,0-80.5C38,160.2,38.2,159.6,38.2,159.7z"/>
+<path d="M84.3,170.3c13.1-3.6,25.5-7,38-10.5c0,0.6,0.2,2.1,0.2,3.5c0,25.5,0,51-0.1,76.5c0,2-1,3.9-1.6,5.9
+	c-1.7-0.9-3.6-1.4-5.1-2.6c-9.6-7.9-19.2-16-28.7-24.1c-1.2-1-2.7-2.5-2.7-3.8C84.2,199.8,84.3,184.5,84.3,170.3z"/>
+<path d="M115,73.5c-4.6,3.7-8.9,7.8-13.8,11.1c-4.3,2.9-5.3,5.8-3.5,10.8c2.1,5.5,3.2,11.3,5.1,18.6c-2.7-1.2-4.1-1.5-5.2-2.2
+	c-4.5-2.9-9-5.7-13.3-8.8c-2.8-2.1-5-2.3-8-0.1c-4.1,3.1-8.6,5.8-12.9,8.5c-1.3,0.8-2.7,1.4-4.1,2c-0.4-0.3-0.8-0.6-1.1-0.8
+	c1.1-4.4,1.7-9.1,3.5-13.2c3.5-7.9,1.6-13.2-5.7-17.5c-3.8-2.3-7-5.7-10.5-8.6c0.2-0.6,0.4-1.1,0.6-1.7c4.4-0.3,8.7-0.6,13.1-0.8
+	c11.2-0.5,11.2-0.4,15.2-11c1.6-4.1,3.2-8.2,5.4-13.7c1.5,2.5,2.4,3.5,2.8,4.8c2.1,5.3,3.8,10.7,6.2,15.8c0.8,1.7,3.1,3.4,4.9,3.6
+	c5.1,0.7,10.3,0.6,15.4,0.9c1.7,0.1,3.5,0.4,5.2,0.7C114.6,72.3,114.8,72.9,115,73.5z"/>
+</svg>
                             </div>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-11">
                             <h4 class="standards-title">Advanced Lighting Technologies &amp; Caltrans Compliance</h4>
                             <p class="standards-text">
                                 We utilize high-quality materials and the latest lighting technologies to provide energy-efficient, low-maintenance solutions that maximize performance while reducing long-term operating costs. Every installation is completed in accordance with agency specifications, utility requirements, Caltrans standards, and all applicable local, state, and federal regulations.
@@ -192,25 +206,17 @@
             <!-- Two-Column Block: Quality & Safety + Project Coordination -->
             <div class="service-section-wrap service-split-block">
                 <div class="row g-4 g-lg-5 align-items-stretch">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="service-feature-card h-100">
                             <div class="feature-card-icon">
                                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                                
                             </div>
                             <h3>Committed to Quality, Safety &amp; Excellence</h3>
                             <p>
                                 As a licensed, bonded, and fully insured Union Contractor, safety is at the core of everything we do. Our team maintains strict compliance with OSHA and Cal/OSHA regulations while implementing rigorous quality control procedures throughout every phase of construction.
                             </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="service-feature-card h-100">
-                            <div class="feature-card-icon">
-                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                            </div>
-                            <h3>End-to-End Project Coordination</h3>
-                            <p>
+                             <p>
                                 From project planning and permitting to utility coordination, installation, inspections, and final acceptance, we work closely with project owners, engineers, utility companies, and public agencies to ensure every project is completed safely, efficiently, and on schedule.
                             </p>
                         </div>
@@ -222,7 +228,7 @@
             <div class="service-cta-banner">
                 <div class="row align-items-center justify-content-between g-4">
                     <div class="col-lg-8 text-center text-lg-start">
-                        <span class="cta-badge">Lighting the Way Since 2005</span>
+                        <span class="cta-badge">Lighting the Way with Quality, Safety, and Reliability Since 2005.</span>
                         <h3 class="cta-title">Reliable Infrastructure for the Future</h3>
                         <p class="cta-text">
                             At <strong>Los Angeles Signal Construction, Inc.</strong>, we understand that dependable street lighting is essential for safer roads, stronger communities, and improved quality of life. Our commitment to craftsmanship, integrity, and customer satisfaction allows us to deliver lighting infrastructure that supports the long-term growth of Southern California.

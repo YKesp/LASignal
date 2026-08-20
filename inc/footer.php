@@ -103,7 +103,7 @@
     <div class="lower-footer">
         <div class="container">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-3 gap-md-0">
-                <p class="m-0">Copyright 2024 <span class="text-success">Los Angeles Signal Construction, Inc.</span>
+                <p class="m-0">Copyright 2026 <span class="text-success">Los Angeles Signal Construction, Inc.</span>
                 </p>
                 <span>Design By: <a href="https://www.espinspire.com/"><img src="./images/espis.png"
                             alt="https://www.espinspire.com/"></a></span>

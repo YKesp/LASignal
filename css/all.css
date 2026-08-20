@@ -10849,7 +10849,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 1199px) {
   .projects-block .item .caption {
@@ -13722,7 +13722,6 @@ body {
   font-size: 15px;
   line-height: 1.7;
   color: #000;
-  margin: 0;
 }
 @media screen and (max-width: 767px) {
   .service-page-block .service-split-block .service-feature-card p {

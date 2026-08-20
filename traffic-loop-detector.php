@@ -158,12 +158,12 @@
             <div class="service-section-wrap service-standards-block">
                 <div class="standards-banner-inner">
                     <div class="row align-items-center g-4">
-                        <div class="col-lg-2 text-center text-lg-start">
+                        <div class="col-lg-1 text-center text-lg-start">
                             <div class="standards-badge-icon">
                                 <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2v20M2 12h20"/></svg>
                             </div>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-11">
                             <h4 class="standards-title">How Inductive Loop Detection Operates</h4>
                             <p class="standards-text">
                                 Traffic loop detectors consist of insulated wire embedded beneath the pavement surface in a precisely designed pattern. When a vehicle passes over or stops within the loop, it creates a change in the electromagnetic field that is detected by the traffic signal controller. This information allows the controller to respond in real time by activating signal phases, extending green lights, triggering protected left turns, operating pedestrian crossings, or controlling gated access systems.

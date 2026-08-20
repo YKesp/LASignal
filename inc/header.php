@@ -55,6 +55,15 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="directional-boring.php">Directional Boring</a>
                             </li>
+                            <li class="nav-item d-block d-lg-none">
+                                <a class="nav-link" href="about.php">About</a>
+                            </li>
+                            <li class="nav-item d-block d-lg-none">
+                                <a class="nav-link" href="projects.php">Projects</a>
+                            </li>
+                            <li class="nav-item d-block d-lg-none">
+                                <a class="nav-link" href="contact.php">Contact Us</a>
+                            </li>
                         </ul>  
                     </div>
                     <a href="#" class="btn btn-success ms-4 d-none d-xl-block">Get a Quote</a>

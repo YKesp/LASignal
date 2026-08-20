@@ -182,12 +182,12 @@
             <div class="service-section-wrap service-standards-block">
                 <div class="standards-banner-inner">
                     <div class="row align-items-center g-4">
-                        <div class="col-lg-2 text-center text-lg-start">
+                        <div class="col-lg-1 text-center text-lg-start">
                             <div class="standards-badge-icon">
                                 <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                             </div>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-11">
                             <h4 class="standards-title">Caltrans &amp; California MUTCD Compliance</h4>
                             <p class="standards-text">
                                 Every project is completed using high-quality materials and installed in accordance with agency specifications, California MUTCD standards, Caltrans requirements, and all applicable local, state, and federal regulations. Our commitment to precision and quality ensures every traffic signal system operates safely, reliably, and efficiently.
@@ -237,9 +237,9 @@
                 <div class="row align-items-center justify-content-between g-4">
                     <div class="col-lg-8 text-center text-lg-start">
                         <span class="cta-badge">Building Safer Intersections</span>
-                        <h3 class="cta-title">Strengthening Southern California Communities</h3>
+                        <h3 class="cta-title">Strengthening Communities</h3>
                         <p class="cta-text">
-                            At Los Angeles Signal Construction, Inc., we take pride in delivering dependable traffic signal infrastructure that enhances public safety, improves traffic flow, and supports the continued growth of Southern California's transportation network.
+                            At <strong>Los Angeles Signal Construction, Inc.</strong>, we take pride in  delivering dependable traffic signal infrastructure that enhances public  safety, improves traffic flow, and supports the continued growth of Southern  California's transportation network. Through integrity, innovation, and  exceptional workmanship, we remain committed to building infrastructure that  serves our communities for generations to come.
                         </p>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
